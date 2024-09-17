@@ -1,7 +1,7 @@
 ## LEARNING GIT REMOTE
 ## <h1>This branch use to learning git remote</h1>
 
-## Will create 2 remote: origin & release
+## Will create 2 or more remotes: origin & release
 
 ## Run git remote add release "git repository name"
 
