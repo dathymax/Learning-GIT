@@ -17,3 +17,14 @@
 ## Run git remote -v to see these 2 remote
 ## Run git push origin to push code to origin
 ## Run git push release to push code to release
+
+
+## GIT BRANCH:
+### Create branch: git checkout -b "branch name" or git branch "branch name"
+
+### Switch branch: git checkout "branch name"
+
+### Delete branch: git branch -D "branch name"
+#### After delete branch, will show "was 'commit hash'"
+
+### Restore branch by commit: git checkout -b "branch name" "commit hash"
