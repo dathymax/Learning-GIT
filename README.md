@@ -43,3 +43,13 @@
 ### Notice: You don't need to write "" to cover your commit hash, just use the string seperately, for example:
 
 #### git cherry-pick hash123 hash456 hash789
+
+
+## CHANGE AUTHOR OF COMMIT:
+### RUN git rebase -i <commit hash> or <HEAD~<commit index>>
+### PRESS INSERT AND CHANGE ALL PICK TO EDIT
+### PRESS ESC AND TYPE :wq TO SAVE CHANGES & QUIT VIM
+### RUN git commit --amend --author="authorname <authorEmail>" --no-edit
+### IF DON'T WANT TO USE OTHER AUTHOR, JUST USE CURRENT GIT USER OF YOUR LOCAL 
+##### -> RUN git commit --amend
+### RUN git rebase --continue UNTIL YOU SATISFY
