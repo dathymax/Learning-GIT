@@ -46,10 +46,10 @@
 
 
 ## CHANGE AUTHOR OF COMMIT:
-### RUN git rebase -i <commit hash> or <HEAD~<commit index>>
+### RUN git rebase -i <commit hash> or <HEAD~commit index>
 ### PRESS INSERT AND CHANGE ALL PICK TO EDIT
 ### PRESS ESC AND TYPE :wq TO SAVE CHANGES & QUIT VIM
-### RUN git commit --amend --author="authorname <authorEmail>" --no-edit
+### RUN git commit --amend --author="authorname \<authorEmail>\" --no-edit
 ### IF DON'T WANT TO USE OTHER AUTHOR, JUST USE CURRENT GIT USER OF YOUR LOCAL 
 ##### -> RUN git commit --amend
 ### RUN git rebase --continue UNTIL YOU SATISFY
