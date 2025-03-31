@@ -53,3 +53,8 @@
 ### IF DON'T WANT TO USE OTHER AUTHOR, JUST USE CURRENT GIT USER OF YOUR LOCAL 
 ##### -> RUN git commit --amend
 ### RUN git rebase --continue UNTIL YOU SATISFY
+
+
+## GIT REMOVE CACHED FOLDER NAME:
+### 1. Check if the folder is cached by Git: git ls-files --cached | grep "old-folder-name"
+### 2. Remove the cached folder: git rm -r --cached old-folder-name
