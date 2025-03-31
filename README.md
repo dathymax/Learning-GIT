@@ -1,11 +1,17 @@
 ## LEARNING GIT
 ## <h1>This repository use to learning git</h1>
 
+### =========================================================================
+
 ## GIT MERGE:
 ### <p>Will create a commit each merging from main branch to task branch</p>
 
+### =========================================================================
+
 ## GIT REBASE:
 ### <p>Will not create a commit each merging from main branch to task branch like git merge</p>
+
+### =========================================================================
 
 ## GIT REMOTE:
 ## Will create 2 or more remote: origin & release
@@ -18,6 +24,7 @@
 ## Run git push origin to push code to origin
 ## Run git push release to push code to release
 
+### =========================================================================
 
 ## GIT BRANCH:
 ### Create branch: git checkout -b "branch name" or git branch "branch name"
@@ -28,6 +35,8 @@
 #### After delete branch, will show "was 'commit hash'"
 
 ### Restore branch by commit: git checkout -b "branch name" "commit hash"
+
+### =========================================================================
 
 ## GIT CHERRY PICK:
 
@@ -44,6 +53,7 @@
 
 #### git cherry-pick hash123 hash456 hash789
 
+### =========================================================================
 
 ## CHANGE AUTHOR OF COMMIT:
 ### RUN git rebase -i <commit hash> or <HEAD~commit index>
@@ -54,7 +64,10 @@
 ##### -> RUN git commit --amend
 ### RUN git rebase --continue UNTIL YOU SATISFY
 
+### =========================================================================
 
 ## GIT REMOVE CACHED FOLDER NAME:
 ### 1. Check if the folder is cached by Git: git ls-files --cached | grep "old-folder-name"
 ### 2. Remove the cached folder: git rm -r --cached old-folder-name
+
+### =========================================================================
