@@ -71,3 +71,27 @@
 ### 2. Remove the cached folder: git rm -r --cached old-folder-name
 
 ### ===========================================================
+
+## GIT REMOVE LATEST COMMIT:
+### If you want to undo the commit but keep your changes (unstaged): git reset --soft HEAD~1
+### If you want to undo the commit and keep your changes (staged): git reset --mixed HEAD~1
+### If you want to undo the commit and discard the changes completely: git reset --hard HEAD~1
+
+### ===========================================================
+
+## GIT DELETE DESIRED COMMIT:
+### 1. git rebase -i HEAD~N 
+#### 1.1. Replace N with how many commits back you want to view (e.g., HEAD~5 for the last 5 commits).
+#### Will show like this:
+###### pick a1b2c3 Commit A
+###### pick d4e5f6 Commit B <- the one you want to delete
+###### pick 789abc Commit C
+#### 1.2. Replace pick with drop next to the commit you want to remove
+#### Move the cursor over pick and type cw (change word), then type drop, and press Esc.
+#### Once done editing, type: wq -> enter
+###### pick a1b2c3 Commit A
+###### drop d4e5f6 Commit B
+###### pick 789abc Commit C
+### 2. git push origin HEAD --force
+
+### ===========================================================
